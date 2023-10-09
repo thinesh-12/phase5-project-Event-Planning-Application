@@ -1,0 +1,24 @@
+/* Container styles */
+.event-details-container {
+    margin: 20px;
+  }
+  
+  /* Event details styles */
+  .event-details {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-details p {
+    margin: 0;
+  }
+
+  

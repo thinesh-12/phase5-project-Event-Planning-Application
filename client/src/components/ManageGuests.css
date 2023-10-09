@@ -1,0 +1,74 @@
+/* Container styles */
+.manage-guests-container {
+    margin: 20px;
+  }
+  
+  /* Title styles */
+  .manage-guests h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Guest List styles */
+  .guest-list {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guest-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .guest-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guest-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .guest-list button {
+    background-color: #ff5757;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add Guest styles */
+  .add-guest {
+    margin-top: 20px;
+  }
+  
+  .add-guest h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .add-guest input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-guest button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  

@@ -1,0 +1,38 @@
+/* RSVP container styles */
+.rsvp {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* RSVP form styles */
+  .event-details {
+    margin-bottom: 20px;
+  }
+  
+  /* RSVP form input styles */
+  .event-details p {
+    margin: 5px 0;
+  }
+  
+  /* RSVP form button styles */
+  .rsvp-actions button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .rsvp-actions button:hover {
+    background-color: #0056b3;
+  }
+  

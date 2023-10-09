@@ -1,0 +1,49 @@
+
+/* Container styles */
+.create-event-container {
+    margin: 20px;
+  }
+  
+  /* Form styles */
+  .create-event-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-event-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-event-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .create-event-form input[type="text"],
+  .create-event-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-event-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-event-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
