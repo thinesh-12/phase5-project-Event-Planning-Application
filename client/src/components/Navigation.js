@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import EventIcon from '@mui/icons-material/Event';
-import PlaylistAddCheckIcon from '@mui/icons-material/PlaylistAddCheck';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import { FaHome, FaCalendarAlt, FaListAlt, FaUserPlus, FaCheck } from 'react-icons/fa'; // Import React Icons
 
 function Navigation() {
   return (
@@ -11,31 +8,31 @@ function Navigation() {
       <ul className="nav-list">
         <li className="nav-item">
           <Link to="/dashboard" className="nav-link">
-            <DashboardIcon />
+            <FaHome />
             Dashboard
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/event" className="nav-link">
-            <EventIcon />
+            <FaCalendarAlt />
             Event Details
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/create-event" className="nav-link">
-            <PlaylistAddCheckIcon />
+            <FaListAlt />
             Create Event
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/manage-guests" className="nav-link">
-            <PersonAddIcon />
+            <FaUserPlus />
             Manage Guests
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/rsvp" className="nav-link">
-            <PlaylistAddCheckIcon />
+            <FaCheck />
             RSVP
           </Link>
         </li>

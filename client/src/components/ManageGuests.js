@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './ManageGuests.css'; // Import the CSS file
 
 const ManageGuests = ({ match }) => {
   const [event, setEvent] = useState(null);
@@ -57,7 +58,7 @@ const ManageGuests = ({ match }) => {
   };
 
   if (!event) {
-    return <div>Loading...</div>;
+    return <div className="loading">Loading...</div>;
   }
 
   return (

@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios'; // Import Axios for making HTTP requests
+import axios from 'axios';
+
+import './Dashboard.css'; // Import the CSS file
 
 const Dashboard = () => {
   const [events, setEvents] = useState([]);
@@ -21,13 +23,11 @@ const Dashboard = () => {
       <h2>Upcoming Events</h2>
       <ul>
         {events.map((event) => (
-          <li key={event.id}>
-            <div className="event-item">
-              <h3>{event.title}</h3>
-              <p>Date: {event.date}</p>
-              <p>Location: {event.location}</p>
-              <a href={`/event/${event.id}`}>View Details</a>
-            </div>
+          <li key={event.id} className="event-item">
+            <h3>{event.title}</h3>
+            <p>Date: {event.date}</p>
+            <p>Location: {event.location}</p>
+            <a href={`/event/${event.id}`}>View Details</a>
           </li>
         ))}
       </ul>

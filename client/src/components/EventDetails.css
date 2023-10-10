@@ -1,24 +1,28 @@
-/* Container styles */
-.event-details-container {
-    margin: 20px;
-  }
-  
-  /* Event details styles */
-  .event-details {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .event-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .event-details p {
-    margin: 0;
-  }
+/* EventDetails.css */
 
-  
+/* Styling for the event details container */
+.event-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the loading message */
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Styling for the error message */
+.error {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: red;
+}

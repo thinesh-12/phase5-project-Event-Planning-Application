@@ -1,38 +1,61 @@
-/* RSVP container styles */
-.rsvp {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* RSVP form styles */
-  .event-details {
-    margin-bottom: 20px;
-  }
-  
-  /* RSVP form input styles */
-  .event-details p {
-    margin: 5px 0;
-  }
-  
-  /* RSVP form button styles */
-  .rsvp-actions button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-right: 10px;
-  }
+/* RSVP.css */
 
-  .rsvp-actions button:hover {
-    background-color: #0056b3;
-  }
-  
+/* Styling for the RSVP container */
+.rsvp {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the loading message */
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Styling for event details */
+.event-details h3 {
+  margin-top: 20px;
+}
+
+.event-details p {
+  margin: 5px 0;
+}
+
+/* Styling for RSVP status */
+.rsvp-status h3 {
+  margin-top: 20px;
+}
+
+.rsvp-status p {
+  margin: 5px 0;
+}
+
+/* Styling for RSVP actions */
+.rsvp-actions h3 {
+  margin-top: 20px;
+}
+
+.rsvp-actions button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.rsvp-actions button:last-child {
+  margin-right: 0;
+}
+
+.rsvp-actions button:hover {
+  background-color: #0056b3;
+}

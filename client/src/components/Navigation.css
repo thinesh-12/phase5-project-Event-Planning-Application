@@ -1,36 +1,29 @@
-/* Navigation container styles */
-.navigation {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  /* Navigation list styles */
-  .navigation ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  /* Navigation list item styles */
-  .navigation li {
-    margin-bottom: 10px;
-  }
-  
-  /* Navigation link styles */
-  .navigation a {
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
-  }
-  
-  /* Navigation icon styles */
-  .navigation svg {
-    margin-right: 10px;
-  }
-  
+/* Navigation.css */
 
-  .navigation a:hover {
-    color: #ff5757;
-  }
-  
+.navigation {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.nav-link svg {
+  margin-right: 10px;
+  font-size: 24px;
+}
