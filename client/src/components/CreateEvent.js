@@ -10,6 +10,7 @@ function CreateEvent() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can send the form data to your backend API here
+   
  const eventData = {
       name: eventName,
       date: eventDate,
